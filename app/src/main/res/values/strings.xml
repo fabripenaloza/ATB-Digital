@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ATB Digital</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    //bottom bar  Es
+    <string name="Homepage">Inicio</string>
+    <string name="Sections">Secciones</string>
+    <string name="Settings">Ajustes</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homepageFragment">
+
+    <fragment
+        android:id="@+id/liveFragment"
+        android:name="com.atbmedia.atbdigital.UI.Live.LiveFragment"
+        android:label="fragment_live"
+        tools:layout="@layout/fragment_live" />
+    <fragment
+        android:id="@+id/programsFragment"
+        android:name="com.atbmedia.atbdigital.UI.Programs.ProgramsFragment"
+        android:label="fragment_programs"
+        tools:layout="@layout/fragment_programs" />
+    <fragment
+        android:id="@+id/sectionsFragment"
+        android:name="com.atbmedia.atbdigital.UI.Sections.SectionsFragment"
+        android:label="fragment_sections"
+        tools:layout="@layout/fragment_sections" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.atbmedia.atbdigital.UI.Settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/homepageFragment"
+        android:name="com.atbmedia.atbdigital.UI.Homepage.HomepageFragment"
+        android:label="fragment_homepage2"
+        tools:layout="@layout/fragment_homepage2" />
+</navigation>
